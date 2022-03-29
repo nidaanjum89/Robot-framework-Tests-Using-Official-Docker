@@ -1,0 +1,8 @@
+email = "sweetyp8494@gmail.com"
+name = "nida"
+description = "Test"
+contactElement = "//a[contains(text(), 'Contact')]"
+emailElement = "//*[@id='recipient-email']"
+nameElement = "//*[@id='recipient-name']"
+descriptionElement = "//*[@id='message-text']"
+submitFormElement = "//*[@id='exampleModal']/div/div/div[3]/button[2]"
