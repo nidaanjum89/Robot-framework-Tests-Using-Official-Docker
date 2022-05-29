@@ -35,5 +35,12 @@ Go to Phone Category Page
     Close Browser
 
 
+Select Monitor
+    Go To Website
+    Wait Until Element Contains   "(//a[normalize-space()='Monitors'])[1]"    5
+    Click link    "//a[normalize-space()='Monitors'])[1]"
+    Wait Until Element Is Enabled   "//a[normalize-space()='Apple monitor 24']"
+    Page Should Contain Element     "//a[normalize-space()='Apple monitor 24']"
+    Close Browser
 
 
